@@ -89,7 +89,8 @@ body{
 /** les scores des joueurs **/
 .score{
     top: 0;
-    left: 0;
+    bottom: 50%;
+    left: 0%;
     width: 50%;
     height: 100%;
     display: flex;
@@ -100,11 +101,6 @@ body{
     opacity: 0.2;
     transition: color 0.5s;
 }
-.score2{
-    left:50%;
-}
-
-
 
 /** les boutons qui symbolisent les touches du clavier **/
 .touche{

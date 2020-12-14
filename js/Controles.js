@@ -20,10 +20,10 @@ class Controles {
             if(event.key === "a"){
                 joueur1.monte();
             }
-            if(event.key === "p"){
+            if(event.key === "q"){
                 joueur1.descend();
             }
-            if(event.key === "p"){
+            if(event.key === "q"){
                 joueur2.monte();
             }
             if(event.key === "a"){
