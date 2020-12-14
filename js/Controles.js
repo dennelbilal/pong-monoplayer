@@ -20,13 +20,13 @@ class Controles {
             if(event.key === "a"){
                 joueur1.monte();
             }
-            if(event.key === "q"){
+            if(event.key === "p"){
                 joueur1.descend();
             }
             if(event.key === "p"){
                 joueur2.monte();
             }
-            if(event.key === "m"){
+            if(event.key === "a"){
                 joueur2.descend();
             }
             event.preventDefault(); // je n'explique pas à quoi ça sert ça vous embrouillerait sans raison
@@ -40,11 +40,9 @@ class Controles {
             }
             switch (event.key) {
                 case "a":
-                case "q":
                     joueur1.bougePas()
                     break;
                 case "p":
-                case "m":
                     joueur2.bougePas()
                     break;
             }
