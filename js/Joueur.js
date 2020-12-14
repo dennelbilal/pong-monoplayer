@@ -1,7 +1,6 @@
 class Joueur extends ElementHtml{
     /**
      * Représente un joueur.
-     *
      * @param {JQuery<HTMLElement>} $raquette L'élément HTML de la raquette
      * @param {JQuery<HTMLElement>} $score L'élément HTML du score
      * @param {JQuery<HTMLElement>} $boutonMonte L'élément HTML du bouton pour monter

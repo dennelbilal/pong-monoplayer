@@ -88,20 +88,32 @@ body{
 
 /** les scores des joueurs **/
 .score{
-    top: 0;
-    bottom: 50%;
+    top: -10;
     left: 0%;
     width: 50%;
     height: 100%;
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: top;
+    align-items: top;
     font-size: 40px;
     color:var(--couleur-elements);
     opacity: 0.2;
     transition: color 0.5s;
 }
 
+.vie{
+    top: 380;
+    left: 0%;
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: bottom;
+    align-items: bottom;
+    font-size: 40px;
+    color:var(--couleur-elements);
+    opacity: 0.2;
+    transition: color 0.5s; 
+}
 /** les boutons qui symbolisent les touches du clavier **/
 .touche{
     color: var(--couleur-on-sait-pas-trop);
