@@ -17,16 +17,16 @@ class Controles {
             if (event.defaultPrevented) {
                 return; // je n'explique pas à quoi ça sert ça vous embrouillerait sans raison
             }
-            if(event.key === "a"){
+            if(event.key === "h"){
                 joueur1.monte();
             }
-            if(event.key === "q"){
+            if(event.key === "b"){
                 joueur1.descend();
             }
-            if(event.key === "q"){
+            if(event.key === "b"){
                 joueur2.monte();
             }
-            if(event.key === "a"){
+            if(event.key === "h"){
                 joueur2.descend();
             }
             event.preventDefault(); // je n'explique pas à quoi ça sert ça vous embrouillerait sans raison
