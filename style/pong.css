@@ -3,6 +3,7 @@ html{
     padding:0;
     overflow: hidden;
     --couleur-fond:rgb(255, 194, 255);
+    --couleur-elements:rgb(249, 72, 255);
     --couleur-on-sait-pas-trop:#fd39fd;
     --couleur-on-sait-pas-trop-foncee:rgb(236, 88, 255);
     --couleur-erreur:#F00;
@@ -10,7 +11,7 @@ html{
 }
 body{
     background-color: var(--couleur-fond);
-    color: #ffffff;
+    color: #ffb5f9;
     font-family: monospace;
     display: flex;
     justify-content: center;
@@ -48,7 +49,7 @@ body{
 
 .balle{
     transition: color 2s;
-    background-color: #fff;
+    background-color: rgb(255, 83, 212);
     --diamettre:20px;
     width: var(--diamettre);
     height: var(--diamettre);
@@ -59,7 +60,7 @@ body{
 
 .raquette{
     --hauteur:25%;
-    background-color: #fff;
+    background-color: rgb(255, 77, 246);
     width: 10px;
     height:var(--hauteur);
     outline: 1px solid var(--couleur-fond);
