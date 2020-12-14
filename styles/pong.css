@@ -2,9 +2,10 @@ html{
     margin: 0;
     padding:0;
     overflow: hidden;
-    --couleur-fond:rgb(255, 194, 255);
-    --couleur-on-sait-pas-trop:#fd39fd;
-    --couleur-on-sait-pas-trop-foncee:rgb(236, 88, 255);
+    --couleur-fond:#000;
+    --couleur-elements:#FFF;
+    --couleur-on-sait-pas-trop:#808080;
+    --couleur-on-sait-pas-trop-foncee:#222;
     --couleur-erreur:#F00;
     --couleur-succes:#0f0;
 }
@@ -188,3 +189,6 @@ body{
         transform: rotate(-90deg);
     }
 }
+
+
+
